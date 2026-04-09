@@ -1,0 +1,182 @@
+Class ID#Description#PreReqs
+HIST 1301#US History to 1865
+HIST 1302#US History from 1865
+HIST 1331#Tech/Science in US Society I
+HIST 1332#Tech/Science in US Society II
+POLS 2311#US Government
+POLS 2312#TX Government
+ECON 2305#Principles of Macroeconomics
+ARCH 1301#Intro to Architecture Design
+ART 1301#Art Appreciation
+ART 1309#Intro: Prehistoric-Renaissance
+ART 1310#Intro: Boroque to Present
+DNCE 1300#Dance Appreciation
+ENGL 1375#Intro to Creative Writing
+JOUR 2340#Photojournalism I
+MUSI 1300#Music Appreciation
+MUSI 1302#Jazz Appreciation
+MUSI 1304#History of Rock Music
+MUSI 2300#World Music
+MUSI 2301#Appreciation of Music in Film
+THEA 1342#Theatre & Film Appreciation
+THEA 1343#Introduction to Theatre
+ANTH 2322#Global Culture
+ARAB 2310#Arabic Culture in the World
+ARAB 2314#Intermediate Arabic II
+ARCH 2300#Masterworks of Western Architecture
+ART 1317#"Intro: Africa# Asia# Americas"
+ASL 2314#Intermediate ASL II
+CHIN 2310#Chinese Culture in the World
+CHIN 2314#Intermediate Chinese II
+CLAS 1300#Intro to Classical Mythology
+DIVR 2315#Intro to LBTQ+ Studies
+ENGL 1350#Writing About Film
+ENGL 2303#Topics in Literature
+ENGL 2309#World Literature
+ENGL 2319#British Literature
+ENGL 2329#American Literature
+FREN 2310#Francophone Cultures
+FREN 2314#Intermediate French II
+GERM 2310#German Culture in the World
+GERM 2314#Intermediate German II
+GLOBAL 2301#Introduction to Global Issues
+GREK 2314#Greek Level IV
+GWSS 2310#Intro to Women's & Gender Studies
+GWSS 2315#Introduction to LGBTQ+ Studies
+HIST 2377#Flight & The Human Experience
+HIST 1301#US History to 1865
+HIST 1302#US History from 1865#HIST 1301
+INST 1310#Introduction to Popular Culture
+KORE 2310#Korean Culture in the World
+KORE 2324#Intermediate Korean II
+LATN 2314#Latin Level IV
+LING 2371#Language in Multicultural USA
+MAS 2300#Introduction to Mexican American Studies
+PHIL 1304#Moral Problems
+PHIL 2300#Introduction to Philosophy
+PORT 2314#Intermediate Portuguese II
+RUSS 2310#Russian Culture in the World
+RUSS 2314#Intermediate Russian II
+SPAN 2310#Hispanic Culture in the World
+SPAN 2314#Intermediate Spanish II
+SPAN 2315#Intermediate Spanish Heritage Speakers
+CSE 1106#Introduction to CSE
+CSE 1310#Intro to Computers & Programming
+CSE 1320#Intermediate Programming
+CSE 1325#Object Oriented Programming
+CSE 2312#Assembly
+CSE 2315#Discrete Structures
+CSE 3318#Algorithms and Data Structures
+MATH 1426#Calculus I
+MATH 2425#Calculus II
+PHYS 1443#Technical Physics I
+PHYS 1444#Technical Physics II
+ENGL 1301#Rhetoric and Composition I
+ENGR 1101#Introduction to Engineering
+CSE 3302#Programming Languages
+CSE 3315#Theory Concepts in CSE
+CSE 3330#Database Systems and File Structures
+CSE 3310#Fundamentals of Software Engineering
+CSE 3320#Operating Systems
+CSE 4303#Computer Graphics
+CSE 4305#Compilers for Algorithmic Languages
+CSE 4360#Auto Robot Design and Programming
+CSE 4308#Artificial Intelligence
+CSE 4344#Computer Network Organization
+CSE 4316#Computer System Design Project I
+CSE 4317#Computer System Design Project II
+CSE 3314#Professional Practices
+CSE 4314#Professional Practices
+IE 3301#Engineering Probability
+MATH 3313#Introduction to Probability
+STATS 3313#Introduction to Probability
+CSE 3380#Linear Algebra for CSE
+MATH 3330#Introduction to Linear Algebra and Vector
+MATH 2326#Calculus III
+CSE 4345#Computational Methods
+CSE 4380#Information Security
+CSE 4381#Information Security II
+CSE 4382#Secure Programming
+COMS 2302#Prof and Technical Communication
+COMS 2305#Bus and Prof Communication
+ENGL 2338#Technical Writing
+CSE 3311#OOP Software Engineering
+CSE 3313#Introduction to Signal Processing
+CSE 4309#Fundamentals of Machine Learning
+CSE 4310#Fundamentals of Machine Vision
+CSE 4321#Software Test & Maint
+CSE 4322#Software Project Management
+CSE 4323#Quantitative Computer Architecture
+CSE 4331#Database Impl & Theory
+CSE 4334#Data Mining
+CSE 4340#Fundamentals of Wireless Networking
+CSE 4351#Parrallel Processing
+CSE 4361#Software Design Patters
+CSE 4373#General Purpose GPU Programming
+CSE 4376#Digital Communication Systems
+CSE 4378#Introduction to Unmanned Vehicle Systems
+SPAN 1301#Spanish I
+SPAN 2301#Spanish II
+ENGL 1302#Rhetoric and Composition II
+COMSTRAN 1000#Communication Science Transfer
+THEA 1303#Fundamentals of Presentation
+MATH 1302#College Algebra
+MATH 1324#Algebra & Trigonometry
+CHEM 1441#Chemistry I
+SPAN 1441#Beginning Spanish I
+SPAN 1442#Beginning Spanish II
+SPAN 1491#Conference Course
+SPAN 2300#Spanish in the United States
+SPAN 2391#Conference Course
+GERM 1441#Beginning German I
+GERM 1442#Beginning German II
+GERM 1491#Conference Course
+GERM 2301#German Lit. In Translation
+GERM 2391#Conference Course
+FREN 1441#Beginning French I
+FREN 1442#Beginning French II
+FREN 1491#Conference Course
+FREN 2301#French Lit. In Translation
+FREN 2391#Conference Course
+RUSS 1441#Beginning Russian
+RUSS 1442#Beginning Russian II
+RUSS 1491#Conference Course
+RUSS 2301#Russ Lit. In Translation
+RUSS 2315#Introduction to Russian
+RUSS 2391#Conference Course
+GREK 1441#Greek Level I
+GREK 1442#Greek Level II
+GREK 2313#Greek Level III
+LATN 1441#Latin Level I
+LATN 1442#Latin Level II
+LATN 2313#Latin Level III
+MODL 1441#Modern Languages Level I
+MODL 1442#Modern Languages Level II
+MODL 1491#Conference Course
+MODL 2301#Intro to World Language
+MODL 2313#Modern Languages Level III
+MODL 2314#Modern Languages Level IV
+MODL 2391#Conference Course
+PORT 1441#Beginning Portuguese I
+PORT 1442#Beginning Portuguese II
+PORT 2301#Topics in Lit in Translation
+PORT 2313#Intermediate Portuguese I
+CHIN 1441#Beginning Chinese I
+CHIN 1442#Beginning Chinese II
+CHIN 1491#Conference Course
+CHIN 2301#Literature in Translation
+CHIN 2313#Intermediate Chinese I
+CHIN 2391#Conference Course
+ARAB 1441#Beginning Arabic I
+ARAB 1442#Beginning Arabic II
+ARAB 1491#Conference Course
+ARAB 2301#Literature In Translation
+ARAB 2313#Intermediate Arabic I
+ARAB 2391#Conference Course
+ASL 1441#Beginning ASL I
+ASL 1442#Beginning ASL II
+ASL 1491#Conference Course
+ASL 2313#Intermediate ASL I
+ASL 2391#Conference Course
+IE 3315#Operations Research
+CSE 4379#Intro to Unmanned Vehicle Sys Dev

@@ -1,0 +1,104 @@
+HIST 1301#US History to 1865#NA
+HIST 1302#US History from 1865#NA
+HIST 1331#Tech/Science in US Society I
+HIST 1332#Tech/Science in US Society II
+POLS 2311#US Government
+POLS 2312#TX Government
+ECON 2305#Principles of Macroeconomics
+ARCH 1301#Intro to Architecture Design
+ART 1301#Art Appreciation
+ART 1309#Intro: Prehistoric-Renaissance
+ART 1310#Intro: Boroque to Present
+DNCE 1300#Dance Appreciation
+ENGL 1375#Intro to Creative Writing
+JOUR 2340#Photojournalism I
+MUSI 1300#Music Appreciation
+MUSI 1302#Jazz Appreciation
+MUSI 1304#History of Rock Music
+MUSI 2300#World Music
+MUSI 2301#Appreciation of Music in Film
+THEA 1342#Theatre & Film Appreciation
+THEA 1343#Introduction to Theatre
+ANTH 2322#Global Culture
+ARCH 2300#Masterworks of Western Architecture
+ART 1317#"Intro: Africa Asia Americas"
+CLAS 1300#Intro to Classical Mythology
+DIVR 2315#Intro to LBTQ+ Studies
+ENGL 1350#Writing About Film
+ENGL 2303#Topics in Literature#ENGL 1301
+ENGL 2309#World Literature#ENGL 1301
+ENGL 2319#British Literature#ENGL 1301
+ENGL 2329#American Literature#ENGL 1301
+GLOBAL 2301#Introduction to Global Issues
+GWSS 2310#Intro to Women's & Gender Studies
+GWSS 2315#Introduction to LGBTQ+ Studies
+HIST 2377#Flight & The Human Experience
+HIST 1301#US History to 1865
+HIST 1302#US History from 1865#HIST 1301
+INST 1310#Introduction to Popular Culture
+MAS 2300#Introduction to Mexican American Studies
+PHIL 1304#Moral Problems
+PHIL 2300#Introduction to Philosophy
+CSE 1106#Introduction to CSE#CSE 1310
+CSE 1310#Intro to Computers & Programming
+CSE 1320#Intermediate Programming
+CSE 1325#Object Oriented Programming
+CSE 2312#Assembly
+CSE 2315#Discrete Structures
+CSE 3318#Algorithms and Data Structures
+MATH 1426#Calculus I
+MATH 2425#Calculus II
+PHYS 1443#Technical Physics I
+PHYS 1444#Technical Physics II
+ENGL 1301#Rhetoric and Composition I
+ENGR 1101#Introduction to Engineering
+CSE 3302#Programming Languages
+CSE 3315#Theory Concepts in CSE
+CSE 3330#Database Systems and File Structures
+CSE 3310#Fundamentals of Software Engineering
+CSE 3320#Operating Systems
+CSE 4303#Computer Graphics
+CSE 4305#Compilers for Algorithmic Languages
+CSE 4360#Auto Robot Design and Programming
+CSE 4308#Artificial Intelligence
+CSE 4344#Computer Network Organization
+CSE 4316#Computer System Design Project I
+CSE 4317#Computer System Design Project II
+CSE 3314#Professional Practices
+CSE 4314#Professional Practices
+IE 3301#Engineering Probability
+MATH 3313#Introduction to Probability
+STATS 3313#Introduction to Probability
+CSE 3380#Linear Algebra for CSE
+MATH 3330#Introduction to Linear Algebra and Vector
+MATH 2326#Calculus III
+CSE 4345#Computational Methods
+CSE 4380#Information Security
+CSE 4381#Information Security II
+CSE 4382#Secure Programming
+COMS 2302#Prof and Technical Communication
+COMS 2305#Bus and Prof Communication
+ENGL 2338#Technical Writing
+CSE 3311#OOP Software Engineering
+CSE 3313#Introduction to Signal Processing
+CSE 4309#Fundamentals of Machine Learning
+CSE 4310#Fundamentals of Machine Vision
+CSE 4321#Software Test & Maint
+CSE 4322#Software Project Management
+CSE 4323#Quantitative Computer Architecture
+CSE 4331#Database Impl & Theory
+CSE 4334#Data Mining
+CSE 4340#Fundamentals of Wireless Networking
+CSE 4351#Parrallel Processing
+CSE 4361#Software Design Patters
+CSE 4373#General Purpose GPU Programming
+CSE 4376#Digital Communication Systems
+CSE 4378#Introduction to Unmanned Vehicle Systems
+ENGL 1302#Rhetoric and Composition II
+COMSTRAN 1000#Communication Science Transfer
+THEA 1303#Fundamentals of Presentation
+MATH 1302#College Algebra
+MATH 1324#Algebra & Trigonometry
+CHEM 1441#Chemistry I
+IE 3315#Operations Research
+CSE 4379#Intro to Unmanned Vehicle Sys Dev
