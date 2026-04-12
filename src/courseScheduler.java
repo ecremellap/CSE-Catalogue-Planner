@@ -1,5 +1,6 @@
 /*
-   
+	**Latest Update at the top of this list:
+	2026.04.12.0357PM - Removed extranuous files
 */
 import java.util.InputMismatchException;
 import java.io.*;
@@ -122,7 +123,7 @@ public class courseScheduler {
 	public static void main(String[] args) {
 		System.out.print("**********************\n");
 
-		//Used to Build out the Basic Course Database(ArrayList)
+		//Used to Build out the Basic Course Database(ArrayList) from file catalogue.txt
 		catalogueBuilder();
 
 
@@ -161,7 +162,7 @@ public class courseScheduler {
 
 
 		scanner.close();
-		System.out.print("End of Main Function\n");
+		//System.out.print("End of Main Function\n");
 	}//End Main Method
   //*******Main Method****
 }//End courseScheduler Class
