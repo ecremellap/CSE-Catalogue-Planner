@@ -66,6 +66,69 @@ class Group {
 	}
 }
 
+class Category{
+	private Group group;
+	private String categoryName;
+	private boolean satisfied;
+	private int totalCreditHours;
+
+	public Category(Category category, String degreeName, boolean satisfied, Group group, String categoryName, boolean satisfied, int totalCreditHours){
+		super(category,degreeName,satisfied);
+		this.group = group;
+		this.categoryName = categoryName;
+		this.satisfied = satisfied;
+		this.totalCreditHours = totalCreditHours;
+	}
+
+	public Group getGroup(){
+		return this.group;
+	}
+
+	
+	public String getCategoryName(){
+		return this.categoryName;
+	}
+
+	
+	public boolean getSatisfied(){
+		return this.satisfied;
+	}
+
+	
+	public int getTotalCreditHours(){
+		return this.totalCreditHours;
+	}
+
+	public void setGroup(Group group){
+		this.group = group;
+	}
+
+	public void setCategoryName(String categoryName){
+		this.categoryName = categoryName;
+	}
+
+	public void setGetSatisfied(boolean getSatisfied){
+		this.getSatisfied = getSatisfied;
+	}
+
+	public void setTotalCreditHours(int totalCreditHours){
+		this.totalCreditHours = totalCreditHours;
+	}
+
+	@Override
+	public boolean satisfiedCheck(ArrayList<Group> groups){
+		boolean status;
+		for(Group g : groups){
+			if(g.getTotalCreditHours() == this.getTotCreditHours){
+				status = true;
+			}else{
+				status = false;
+			}
+		}
+		return status;
+	}
+}
+
 //This is the Main Class, Name of the Program
 public class courseScheduler {
 	private static final Scanner scanner = new Scanner(System.in); //Scanner for input use
