@@ -53,11 +53,14 @@ class Group {
 
 	public void setGroupName(String groupName) { this.groupName = groupName;}
 	public void setTotCreditHours(int totCreditHours) { this.totCreditHours = totCreditHours;}
-	public void setSatisified(boolean groupName) { this.satisfied = satisfied;}
-	public void setOptions(ArrayList groupName) { this.groupName = groupName;}
-	public void setGroupName(ArrayList groupName) { this.groupName = groupName;}
+	public void setSatisified(boolean satisfied) { this.satisfied = satisfied;}
+	public void setOptions(ArrayList options) { this.options = options;}
+	public void setPicks(ArrayList picks) { this.picks = picks;}
 
-	public boolean satisfiedCheck()
+	public boolean satisfiedCheck() {
+		for(course c : picks)
+		return true;
+	}
 	{
 		
 	}
