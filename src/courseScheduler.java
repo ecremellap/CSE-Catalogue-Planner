@@ -1,11 +1,10 @@
-/*
-	**Latest Update at the top of this list:
-	2026.04.12.0357PM - Removed extranuous files
-*/
 import java.util.InputMismatchException;
 import java.io.*;
 import java.util.Scanner;
 import java.util.ArrayList;
+
+//Enumeration for Course Status, See Class Course
+enum Status { TAKEN, NOTTAKEN, PLANNED, TAKING }
 
 //Classes Setup
 //Custom Class "course" - for the main catalogue of courses
@@ -13,26 +12,56 @@ class course {
 	private String courseID;
 	private String description;
 	private String prereqs;
-	//private String taken;
+	private int creditAmt;
+	private Status status;
 
 	//getters
 	public String getcourseID() { return this.courseID;}
 	public String getdescription() {return this.description;}
 	public String getprereqs() {return this.prereqs;}
-	//public String gettaken() {return this.taken;}
+	public int getCreditAmt() {return this.creditAmt;}
+	public Status getStatus() {return this.status;}
 
 	//setters
-	public void setcourseID(String courseID) {this.courseID = courseID;}
+	public void setcourseID(String courseID) {this.courseID = courseID; setCreditAmt();}
 	public void setdescription(String description) {this.description = description;}
 	public void setprereqs(String prereqs) {this.prereqs = prereqs;}
-	//public void settaken(String taken) {this.taken = taken;}
-}
-//Custom Class "course" - for the main catalogue of courses
-class requirement {
-	
-}
-//Classes Setup
+	public void setStatus(Status status) { this.status = status;}
 
+	//Calculates the CreditHours for the course;
+	public int setCreditAmt() {
+		String[] tokens = courseID.split(" ");
+		creditAmt = Character.getNumericValue(tokens[1].charAt(1));
+		return creditAmt;
+	}
+}
+
+class Group {
+	private course Course;
+
+	private String groupName;
+	private int totCreditHours;
+	private boolean satisfied;
+	ArrayList<course> options;
+	ArrayList<course> picks;
+
+	public String getGroupName() { return this.groupName;}
+	public int getTotCreditHours() { return this.totCreditHours;}
+	public boolean getSatisfied() { return this.satisfied;}
+	public ArrayList getOptions() { return this.options;}
+	public ArrayList getPicks() { return this.picks;}
+
+	public void setGroupName(String groupName) { this.groupName = groupName;}
+	public void setTotCreditHours(int totCreditHours) { this.totCreditHours = totCreditHours;}
+	public void setSatisified(boolean groupName) { this.satisfied = satisfied;}
+	public void setOptions(ArrayList groupName) { this.groupName = groupName;}
+	public void setGroupName(ArrayList groupName) { this.groupName = groupName;}
+
+	public boolean satisfiedCheck()
+	{
+		
+	}
+}
 
 //This is the Main Class, Name of the Program
 public class courseScheduler {
@@ -41,9 +70,7 @@ public class courseScheduler {
 	private static ArrayList<course> catalogueList = new ArrayList();
 
 
-
 //***Methods****/
-
   //******Calogue Management Methods
 	static public void catalogueBuilder()
 	{
@@ -62,6 +89,10 @@ public class courseScheduler {
 				//Assigning Values to the temp object
 				newCourse.setcourseID(parts[0].trim());
 				newCourse.setdescription(parts[1].trim());
+				if (parts.length > 2) { newCourse.setprereqs(parts[2].trim()); }
+					else { newCourse.setprereqs("None"); }
+				newCourse.setStatus(Status.NOTTAKEN); //Assings Not Taken as Default
+
 
 				catalogueList.add(newCourse); //Adds object data to new item in Catalogue List
 
@@ -82,13 +113,10 @@ public class courseScheduler {
 		//int size = catalogueList.size(); int c = 0;
 		for(course c : catalogueList)
 		{
-			System.out.printf("| %13s | %-45s |\n", c.getcourseID(), c.getdescription());
+			System.out.printf("| %13s | %-45s | %d Credit Hours | %13s\n", c.getcourseID(), c.getdescription(), c.getCreditAmt(), c.getStatus());
 		}
 	}
   //******Calogue Management Methods
-
-
-
 
   //Menu Navigation Methods	
 	static public int validMenuChoice() //Gets User Input for Main Menu and Validates Input
@@ -116,14 +144,11 @@ public class courseScheduler {
 				}
 		}
 	}//Menu Choice and Validation
-
-
-
   //*******Main Method****
 	public static void main(String[] args) {
 		System.out.print("**********************\n");
 
-		//Used to Build out the Basic Course Database(ArrayList) from file catalogue.txt
+		//Used to Build out the Basic Course Database(ArrayList)
 		catalogueBuilder();
 
 
@@ -162,7 +187,7 @@ public class courseScheduler {
 
 
 		scanner.close();
-		//System.out.print("End of Main Function\n");
+		System.out.print("End of Main Function\n");
 	}//End Main Method
   //*******Main Method****
 }//End courseScheduler Class
