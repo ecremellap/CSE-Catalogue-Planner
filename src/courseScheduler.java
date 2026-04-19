@@ -67,21 +67,20 @@ class Group {
 }
 
 class Category{
-	private Group group;
+	private ArrayList<Group> groups;
 	private String categoryName;
 	private boolean satisfied;
 	private int totalCreditHours;
 
-	public Category(Category category, String degreeName, boolean satisfied, Group group, String categoryName, boolean satisfied, int totalCreditHours){
-		super(category,degreeName,satisfied);
-		this.group = group;
+	public Category(ArrayList<Group> groups, String categoryName, boolean satisfied, int totalCreditHours){
+		this.groups = groups;
 		this.categoryName = categoryName;
 		this.satisfied = satisfied;
 		this.totalCreditHours = totalCreditHours;
 	}
 
-	public Group getGroup(){
-		return this.group;
+	public ArrayList<Group> getGroups(){
+		return this.groups;
 	}
 
 	
@@ -99,8 +98,8 @@ class Category{
 		return this.totalCreditHours;
 	}
 
-	public void setGroup(Group group){
-		this.group = group;
+	public void setGroups(ArrayList<Group> groups){
+		this.groups = groups;
 	}
 
 	public void setCategoryName(String categoryName){
@@ -115,11 +114,10 @@ class Category{
 		this.totalCreditHours = totalCreditHours;
 	}
 
-	@Override
 	public boolean satisfiedCheck(ArrayList<Group> groups){
 		boolean status;
 		for(Group g : groups){
-			if(g.getTotalCreditHours() == this.getTotCreditHours){
+			if(g.getTotalCreditHours() == this.totalCreditHours){
 				status = true;
 			}else{
 				status = false;
