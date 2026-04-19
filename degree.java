@@ -1,9 +1,15 @@
-package stuff;
 
-class degree {  
+class Degree implements Checks{  
     private Category Category;
     private String degreeName;
     private boolean satisfied;
+
+    //Constructor
+    public Degree(Category Category, String degreeName, boolean satisfied){
+        this.Categroy = Category;
+        this.degreeName = degreeName;
+        this.satisfied = satisfied;
+    }
 
     //Getters
     public Category getCategory{return Category;}
@@ -16,7 +22,7 @@ class degree {
     public void setSatisified(boolean){this.satisfied = satisfied;}
 
     @Override
-    bool satisfiedCheck();
+    boolean satisfiedCheck();
     /*
     how many groups are satified
     (completed / amount of categories) * 100 = percentage
